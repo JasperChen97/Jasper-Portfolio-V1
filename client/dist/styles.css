@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+:root {
+  background:black;
+}
+.fa-primary {
+  color: #ff7eee;
+}
+
+.fa-secondary {
+  color: #df49a6;
+}
+
+.fa-primary,
+.fa-secondary {
+  transition: 600ms;
+}
