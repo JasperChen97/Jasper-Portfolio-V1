@@ -99,9 +99,6 @@ export const StyledContactButton = styled.button`
   font-family: 'Open Sans', sans-serif;
 `;
 
-export const ButtonContainer = styled.div`
- display flex;
-`;
 
 export const StyledHome = styled.div`
   background:#3a4042;

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "projectName": "Adidas Web Application",
+      "projectImg": "../images/AdidasHome.png",
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "usedTech": ["Node", "React", "Express", "MySQL"],
+      "sourceCode": "Project",
+      "demo": "Project"
+    },
+    {
+      "id": 1,
+      "projectName": "Project 2",
+      "projectImg": "../images/AdidasHome.png",
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "usedTech": ["Node", "React", "Express", "MySQL"],
+      "sourceCode": "Project",
+      "demo": "Project"
+    },
+    {
+      "id": 1,
+      "projectName": "Project 3",
+      "projectImg": "../images/AdidasHome.png",
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "usedTech": ["Node", "React", "Express", "MySQL"],
+      "sourceCode": "Project",
+      "demo": "Project"
+    },
+    {
+      "id": 1,
+      "projectName": "Project 4",
+      "projectImg": "../images/AdidasHome.png",
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "usedTech": ["Node", "React", "Express", "MySQL"],
+      "sourceCode": "Project",
+      "demo": "Project"
+    }
+]

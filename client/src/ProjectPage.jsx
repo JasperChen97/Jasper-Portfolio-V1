@@ -1,65 +1,19 @@
 import React from 'react';
-import { StyledPortfolio, CardContainer, StyledCard, StyledCardInfo, StyledImage, StyledProjectButton, UsedTech, CardSetContainer, ProjectHeader } from '../StyledComponents/index.js';
+import { StyledPortfolio, CardSetContainer, ProjectHeader, StyledHeaderUnderline } from '../StyledComponents/index.js';
+import ProjectCard from './Projects.jsx';
+import data from '../../data.json'
 
 const ProjectPage = () => {
   return (
     <StyledPortfolio>
       <CardSetContainer>
         <ProjectHeader>
-          <h1>My Recent Projects</h1>
+          <h1 style={{"fontSize": "80px", "width": "100%"}}>PROJECTS</h1>
+          <StyledHeaderUnderline />
         </ProjectHeader>
-        <CardContainer>
-          <StyledCard>
-            <StyledImage>
-            </StyledImage>
-            <StyledCardInfo>
-              <h1>Project 1</h1>
-              <p>I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE</p>
-              <UsedTech>
-              </UsedTech>
-            </StyledCardInfo>
-            <StyledProjectButton />
-          </StyledCard>
-        </CardContainer>
-        <CardContainer>
-          <StyledCard>
-            <StyledImage>
-            </StyledImage>
-            <StyledCardInfo>
-              <h1>Project 1</h1>
-              <p>I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE</p>
-              <UsedTech>
-              </UsedTech>
-            </StyledCardInfo>
-            <StyledProjectButton />
-          </StyledCard>
-        </CardContainer>
-        <CardContainer>
-          <StyledCard>
-            <StyledImage>
-            </StyledImage>
-            <StyledCardInfo>
-              <h1>Project 1</h1>
-              <p>I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE</p>
-              <UsedTech>
-              </UsedTech>
-            </StyledCardInfo>
-            <StyledProjectButton />
-          </StyledCard>
-        </CardContainer>
-        <CardContainer>
-          <StyledCard>
-            <StyledImage>
-            </StyledImage>
-            <StyledCardInfo>
-              <h1>Project 1</h1>
-              <p>I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE I LIKE APPLE</p>
-              <UsedTech>
-              </UsedTech>
-            </StyledCardInfo>
-            <StyledProjectButton />
-          </StyledCard>
-        </CardContainer>
+        {data.map((project, index) => (
+          <ProjectCard project = {project}/>
+        ))}
       </CardSetContainer>
     </StyledPortfolio>
   )
