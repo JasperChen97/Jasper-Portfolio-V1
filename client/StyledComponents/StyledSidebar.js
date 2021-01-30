@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const SidebarMain = styled.nav`
   position: fixed;
-  background: #23232e;
+  background: #212121;
   transition: width 600ms ease;
   overflow: hidden;
-
+  z-index: 1000;
   $:hover ${ArrowToggle} {
     transform: rotate(-180deg);
   }
@@ -78,7 +78,7 @@ export const ArrowToggleText = styled.span`
   }
 `;
 
-export const NavLinks = styled.a`
+export const NavLinks = styled.div`
   display: flex;
   align-items: center;
   height: 5rem;
@@ -106,7 +106,7 @@ export const NavLinksText = styled.span`
   display: none;
   margin-left: 1rem;
   transition: 600ms;
-  font-family: 'Open Sans';
+  font-family: ''Open Sans', sans-serif;';
   @media only screen and (min-width: 600px) {
     ${SidebarMain}:hover & {
       display: inline;
